@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <h1 onclick="color()">Click Me</h1>
+    <center><i style="font-size: 30px; color: chartreuse;" id="get"><i></center>
+
+    <script>
+
+        let get=document.getElementById('get');
+        function color(){
+            alert("Function ke ander")
+            let name=prompt("Enter Your Name: ");
+            get.innerHTML=`${name}`
+                
+        }
+// Calling Function
+        alert("Function ke bahar")
+        color()
+
+    </script> -->
+
+    <span id="tbl"></span>
+    <h1 onclick="table()">Click Me</h1>
+
+    <script>
+        // Print table by taking input from user.
+        let tbl=document.getElementById(`tbl`)
+        function blow(){
+            let user_num=Number(prompt("Enter Your Number for Table : "))
+            if(user_num >0)
+            {
+                for(let n=1; n<11; n++){
+                    data=`${user_num} x  ${n}= ${user_num*n}<br>`
+                    tbl.innerHTML += data;
+                }
+            }
+            
+        }
+        alert("hii")
+        blow()
+
+    </script>
+
+
+</body>
+</html>
