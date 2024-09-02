@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="Number" name="" id="get" oninput="book()">
+    <input type="Number" name="" id="set">
+
+    <script>
+        function book(){
+            var set=document.getElementById("set");
+            var get=document.getElementById("get");
+            console.log(set)
+            set.value=parseInt(get.value)+1
+            console.log(set)
+        }
+    </script>
+</body>
+</html>

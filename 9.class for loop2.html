@@ -8,24 +8,24 @@
 <body>
     <script>
         // write a program to sum of generate number from 1-15
-        let n=1;
-        s=0;
-        for(n; n<=15; n++){
-            s=s+n
-        document.write(s+"<br>")
-        }
-        document.write(s,"<br>")
+    //     let n=1;
+    //     s=0;
+    //     for(n; n<=15; n++){
+    //         s=s+n
+    //     document.write(s+"<br>")
+    //     }
+    //     document.write(s,"<br>")
         
-        // write a program of multiply number from 1-15
-        let m=1;
+    //     // write a program of multiply number from 1-15
+    //     let m=1;
     
-        for(let i=1; i<=5; i++){
-            m=m*i
-            document.write(i+"<br>")
-        } 
-        document.write(m)
+    //     for(let i=1; i<=5; i++){
+    //         m=m*i
+    //         document.write(i+"<br>")
+    //     } 
+    //     document.write(m)
         
-    </script>
+    // </script>
 
 <!-- Printing string using for loop.. -->
 <!-- <script>
@@ -38,14 +38,24 @@
 </script> -->
 
 <script>
-    let data="Dreamer infotech"
+    let data="Dreamer Infotech"
     size=data.length
     for (let i=0; size>i; i++){
         document.write(`${data[i]} <br>`)
         if (i%2==0){
-            document.write(`${data[i]} ${i} <br>`)
+            // document.write(`${data[i]} ${i} <br>`)
         }
     }
 </script>
+<!-- Break Statment
+<script>
+    for(let i=0; i<15; i++){
+        if(i==6){
+            break
+        }
+        console.log("break : ",i)
+    }
+
+</script> -->
 </body>
 </html>
